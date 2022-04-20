@@ -33,8 +33,10 @@
 
 ### Experiment results
 
-<p align="center"><img src="figure/result3.png" width="900"></p>
+<p align="center"><img src="figure/result3.png" width="800"></p>
 <br><br>
-<p align="center"><img src="figure/urso_results.png" width="900"></p>
+<p align="center"><img src="figure/urso_results.png" width="800"></p>
 
 ---
+
+### Codes
