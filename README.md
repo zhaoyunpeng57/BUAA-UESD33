@@ -12,8 +12,9 @@
 
 * The satellite models and their equipments diagrams in our paper could be downloaded here
 
-* [baidu disk](https://pan.baidu.com/s/15iQRhna1JqZQ2r8gI-O4GA)  password：BUAA
+* [baidu disk](https://pan.baidu.com/s/15iQRhna1JqZQ2r8gI-O4GA)  Password：BUAA
 * [buaa disk](https://bhpan.buaa.edu.cn:443/link/C1F1E003D3AF6B173DFF8B30132DDB9E)
+* If you can not download, please contact zy2015128@buaa.edu.cn or 1018450554@qq.com
 
 ---
 
