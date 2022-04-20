@@ -49,7 +49,7 @@ Intellectualization is a significant research hotspot in the development of spac
 
 * Our dataset
 <p align="center"><img src="figure/result3.png" width="800"></p>
-<br><br>
+
 * URSO dataset
 <p align="center"><img src="figure/urso_results.png" width="800"></p>
 
