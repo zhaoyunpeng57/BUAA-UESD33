@@ -7,6 +7,10 @@ Satellite Models
 ===
 ### 
 卫星模型中为论文中使用的33颗卫星模型的几何文件，及其对应的结构图。可以在这里下载
+The satellite models and their equipments diagrams in our paper could be downloaded here
+[baidu disk]：https://pan.baidu.com/s/15iQRhna1JqZQ2r8gI-O4GA  提取码：BUAA
+[buaa disk] :https://bhpan.buaa.edu.cn:443/link/C1F1E003D3AF6B173DFF8B30132DDB9E
+
 
 
 ### Benchmark
