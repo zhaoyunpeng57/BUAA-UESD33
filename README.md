@@ -34,15 +34,6 @@ Intellectualization is a significant research hotspot in the development of spac
 | ConvNext-B| 99.83 | 93.85 | 89.66 | 72.98 | 72.92 | 83.87 | 85.52 | 82.66 |
 | Our method | 99.85 | 94.18 | 89.85 | 77.06 | 76.19 | 85.71 | 87.14 | 84.60 |  
 
-### Experiments on different dataset
-
-* val: 23 satellites; test: 10 new satellites; [URSO](https://pedropro.github.io/project/urso/) 
-
-| Method | mIoU-val | mIoU-test | mIoU-URSO |
-| :---: | :---: | :---: | :---: |
-| SFnet| 86.31 | 81.51 | 78.2 |
-| Our method | 93.02 | 83.32 | 81.47 |
-
 ---
 
 ### Experiment results
@@ -50,7 +41,7 @@ Intellectualization is a significant research hotspot in the development of spac
 * Our dataset
 <p align="center"><img src="figure/result3.png" width="800"></p>
 
-* URSO dataset
+* [URSO](https://pedropro.github.io/project/urso/) dataset
 <p align="center"><img src="figure/urso_results.png" width="800"></p>
 
 ---
