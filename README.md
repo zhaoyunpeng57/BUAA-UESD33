@@ -36,7 +36,7 @@ Intellectualization is a significant research hotspot in the development of spac
 
 ### Experiments on different dataset
 
-* val: 23 satellites test: 10 new satellites [URSO](https://pedropro.github.io/project/urso/) 
+* val: 23 satellites; test: 10 new satellites; [URSO](https://pedropro.github.io/project/urso/) 
 
 | Method | mIoU-val | mIoU-test | mIoU-URSO |
 | :---: | :---: | :---: | :---: |
@@ -47,8 +47,10 @@ Intellectualization is a significant research hotspot in the development of spac
 
 ### Experiment results
 
+* Our dataset
 <p align="center"><img src="figure/result3.png" width="800"></p>
 <br><br>
+* URSO dataset
 <p align="center"><img src="figure/urso_results.png" width="800"></p>
 
 ---
