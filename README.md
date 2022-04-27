@@ -1,26 +1,28 @@
-### BUAA-UESD33
+### Intelligent Recognition of Spacecraft Components from Photorealistic Images based on Unreal Engine 4
 
-* 这是BUAA-UESD33数据集的原始图片，共有10000张。包含33颗卫星，5种特征部件的标注图片
+### BUAA-UESD
 
-* 数据集可以在这里下载
+* UESD has 10000 satellite images with five distinctive components and 33 different satellites.
+* Our paper is under review, so we only give the images. The annotation set will be given later
+* UESD can be downloaded here
+* Baidu disk https://pan.baidu.com/s/16LHmym9-RBQ7trlmRnkI4Q  Password:BUAA 
+* BUAA disk  https://bhpan.buaa.edu.cn:443/link/3939AF839E75C8A312B673A1AB56C9F0
 
 ---
 
 ### Satellite models
 
-* 卫星模型中为论文中使用的33颗卫星模型的几何文件，及其对应的结构图。可以在这里下载
-
 * The satellite models and their equipments diagrams in our paper could be downloaded here
 
-* [baidu disk](https://pan.baidu.com/s/15iQRhna1JqZQ2r8gI-O4GA)  Password：BUAA
-* [buaa disk](https://bhpan.buaa.edu.cn:443/link/C1F1E003D3AF6B173DFF8B30132DDB9E)
+* [Baidu disk](https://pan.baidu.com/s/15iQRhna1JqZQ2r8gI-O4GA)  Password：BUAA
+* [Buaa disk](https://bhpan.buaa.edu.cn:443/link/C1F1E003D3AF6B173DFF8B30132DDB9E)
 * If you can not download, please contact zy2015128@buaa.edu.cn or 1018450554@qq.com
 
 ---
 
 ### Abstract
 
-Intellectualization is a significant research hotspot in the development of space technology. Over the decades, the great advancement of deep learning has made us see the possibility of applying semantic segmentation to spacecraft intelligent recognition. Recognizing satellite components is crucial for docking, maintenance, refueling, debris removal, and other tasks. However, the lack of training datasets required for deep learning is an insurmountable difficulty. Based on the needs of space missions and current challenges, this paper first builds the space target dataset. Based on Unreal Engine 4, we establish a space simulation environment that can generate photorealistic photos with high-quality earth background. After collecting and modifying 33 different satellite models, we import them into the environment and generate 10000 images of satellites with various attitudes and abundant backgrounds. Unlike existing datasets, our dataset, named UESD, has five different components, namely solar array, antenna, thruster, instrument, and optical payload, respectively. Furthermore, UESD constructs the earth background as much as possible to avoid the shortcomings of relevant simulation images. After building the dataset, we use a series of state-of-the-art semantic segmentation models to test their performances on our dataset. Using ConvNeXt-Base as the backbone, we also modify a new decoder module based on Upernet. Our method achieves 84.6%and shows satisfactory results compared with all baselines. More experiments are carried out to test the generalization. Results show that even on new satellite targets and a totally different dataset, our method can still recognize the components. The accuracy is slightly reduced but still maintains a high level. Experiments prove the effectiveness of our dataset and method. Ultimately, we analyze existing fully supervised learning shortcomings and look forward to future work.
+Autonomous and accurate recognition of satellite components is crucial for space tasks such as rendezvous, docking, maintenance, and refueling. Over the decades, the great advancement of deep learning has made us see the possibility of applying semantic segmentation to spacecraft intelligence recognition. However, the lack of training datasets required for deep learning is an insurmountable difficulty. Based on the needs of space missions and current challenges, this paper builds the space target dataset for satellite component recognition. Based on Unreal Engine 4, we establish a space simulation environment that can generate photorealistic images with earth backgrounds. After collecting and modifying 33 different high-quality satellite models, we import them into the environment and generate 10000 satellite images with various attitudes and diverse backgrounds. Unlike existing datasets, our dataset, named UESD, has five distinctive components: solar panel, antenna, thruster, instrument, and optical payload. Furthermore, UESD constructs the earth background as much as possible to avoid the shortcomings of relevant simulation images. After building the dataset, we use a series of state-of-the-art semantic segmentation models to test their performances on our dataset. Using ConvNeXt-Base as the backbone, we propose a new decoder module named LUperNet. Our method achieves 84.6% and shows satisfactory accuracy compared with all baselines. More experiments are carried out to test the generalization ability. Results show that even on new satellite targets and a totally different dataset, our method can still recognize the components and maintain high accuracy. Experiments prove the effectiveness of applying our dataset and method to spacecraft component recognition. 
 <br><br>
 
 ### Benchmark
@@ -47,3 +49,5 @@ Intellectualization is a significant research hotspot in the development of spac
 ---
 
 ### Codes
+
+* The codes will be given after the reviewing
