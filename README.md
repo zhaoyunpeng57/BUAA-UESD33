@@ -7,6 +7,7 @@
 * UESD can be downloaded here
 * Baidu disk https://pan.baidu.com/s/16LHmym9-RBQ7trlmRnkI4Q  Password:BUAA 
 * BUAA disk  https://bhpan.buaa.edu.cn:443/link/3939AF839E75C8A312B673A1AB56C9F0
+* Google Drive https://drive.google.com/file/d/1ZLATSgkaa4Ya8XzJlwTqiAv2Q7_K0KXw/view?usp=sharing
 
 ---
 
@@ -16,6 +17,7 @@
 
 * [Baidu disk](https://pan.baidu.com/s/15iQRhna1JqZQ2r8gI-O4GA)  Password：BUAA
 * [Buaa disk](https://bhpan.buaa.edu.cn:443/link/C1F1E003D3AF6B173DFF8B30132DDB9E)
+* [Google Drive](https://drive.google.com/file/d/1koIS_FNiqrHcVfvG1JpQRt4E88JbiI0z/view?usp=sharing)
 * If you can not download, please contact zy2015128@buaa.edu.cn or 1018450554@qq.com
 
 ---
