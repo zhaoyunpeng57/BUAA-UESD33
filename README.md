@@ -3,11 +3,16 @@
 ### BUAA-UESD
 
 * UESD has 10000 satellite images with five distinctive components and 33 different satellites.
+* 2022.8.23 Updated 17 new satellite models and 3200 images
 * Our paper is under review, so we only give the images. The annotation set will be given later
 * UESD can be downloaded here
+* Edition1
 * Baidu disk https://pan.baidu.com/s/16LHmym9-RBQ7trlmRnkI4Q  Password:BUAA 
-* BUAA disk  https://bhpan.buaa.edu.cn:443/link/3939AF839E75C8A312B673A1AB56C9F0
 * Google Drive https://drive.google.com/file/d/1ZLATSgkaa4Ya8XzJlwTqiAv2Q7_K0KXw/view?usp=sharing
+* Edition2
+* Google Drive https://drive.google.com/file/d/1l6SyoBvwn9mxpnlgsY8071rFeShUP3sQ/view?usp=sharing
+
+
 
 ---
 
@@ -15,9 +20,11 @@
 
 * The satellite models and their equipments diagrams in our paper could be downloaded here
 
+* Edition1
 * [Baidu disk](https://pan.baidu.com/s/15iQRhna1JqZQ2r8gI-O4GA)  Password：BUAA
-* [Buaa disk](https://bhpan.buaa.edu.cn:443/link/C1F1E003D3AF6B173DFF8B30132DDB9E)
 * [Google Drive](https://drive.google.com/file/d/1koIS_FNiqrHcVfvG1JpQRt4E88JbiI0z/view?usp=sharing)
+* Edition2
+* [Google Drive](https://drive.google.com/file/d/1Sn8xSardyq-7ZL3bU_3CHaXIM8ZFRRr8/view?usp=sharing)
 * If you can not download, please contact zy2015128@buaa.edu.cn or 1018450554@qq.com
 
 ---
