@@ -51,9 +51,13 @@ Autonomous and accurate recognition of satellite components is crucial for space
 
 * Our dataset
 <p align="center"><img src="figure/result3.png" width="800"></p>
+<p align="center"><img src="figure/18results.png" width="800"></p>
 
 * [URSO](https://pedropro.github.io/project/urso/) dataset
 <p align="center"><img src="figure/urso_results.png" width="800"></p>
+
+* NASA Results
+<p align="center"><img src="figure/nasa.png" width="800"></p>
 
 ---
 
