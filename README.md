@@ -98,6 +98,24 @@ mmsegmentation
 ├── ...
 ```
 
+
+
+## Framework Structure
+
+Our project is based on [mmsegmentation](https://github.com/open-mmlab/mmsegmentation).
+Replace the files in mmsegmentation with our project.
+
+The most important files are :
+```shell
+configs/convnext/upernet_convnext_base_fp16_512x512_160k_ade20k.py
+
+configs/base/datasets/cityscapes.py
+
+configs/base/models/upernet_convnext.py 
+
+mmseg/models/decode_heads/LUper_head.py
+```
+
 ## Training
 
 ```shell
@@ -110,21 +128,6 @@ After the training, you will find a folder named work_dirs/upernet_convnext_base
 
 ```shell
 bash ./tools/dist_test.sh configs/convnext/upernet_convnext_base_fp16_512x512_160k_ade20k.py workdirs/upernet_convnext_base_fp16_512x512_160k_ade20k/iter_80000.pyth  --eval mIoU --eval_options "imgfile_prefix=./UESD_results"
-```
-
-## Framework Structure
-
-Our project is based on [mmsegmentation](https://github.com/open-mmlab/mmsegmentation).
-
-The most important files are :
-```shell
-configs/convnext/upernet_convnext_base_fp16_512x512_160k_ade20k.py
-
-configs/base/datasets/cityscapes.py
-
-configs/base/models/upernet_convnext.py 
-
-mmseg/models/decode_heads/LUper_head.py
 ```
 
 ## Acknowledgements
