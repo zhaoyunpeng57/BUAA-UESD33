@@ -69,8 +69,9 @@ conda create --name open-mmlab python=3.7 -y
 conda activate open-mmlab
 ```
 
-Please ensure your cuda version first. Find the correct pytorch version of your cuda version from [here](https://pytorch.org/get-started/previous-versions/)
-For our computer, the cuda version is 10.1. And the mmcv version can be found [here](https://github.com/open-mmlab/mmcv/blob/master/README_zh-CN.md)
+Find the correct pytorch version of your cuda version from [here](https://pytorch.org/get-started/previous-versions/)
+For our computer, the cuda version is 10.1. 
+And the mmcv version can be found [here](https://github.com/open-mmlab/mmcv/blob/master/README_zh-CN.md)
 
 ```shell
 pip install torch==1.8.1+cu101 torchvision==0.9.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
@@ -80,7 +81,7 @@ pip install mmsegmentation==0.27.0
 
 
 ## Setup Datasets
-Download the UESD dataset and extract the folder. Create a new folder named data and cityscapes.The final folder structure should look like this:
+Download the UESD dataset and extract the folder. The final folder structure should look like this:
 ```none
 mmsegmentation
 ├── configs
