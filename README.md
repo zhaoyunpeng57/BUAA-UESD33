@@ -6,14 +6,13 @@
 * 2022.8.23 Updated 17 new satellite models and 3200 images
 * UESD can be downloaded here
 * Edition1
-* Baidu disk https://pan.baidu.com/s/16LHmym9-RBQ7trlmRnkI4Q  Password:BUAA 
-* Google Drive [train_image] (https://drive.google.com/file/d/1YISHetSjqn7guUgwkpegteyfiYiWlqyN/view?usp=sharing) 
+* [Baidu disk](https://pan.baidu.com/s/16LHmym9-RBQ7trlmRnkI4Q)  Password:BUAA 
+* Google Drive [train_image](https://drive.google.com/file/d/1YISHetSjqn7guUgwkpegteyfiYiWlqyN/view?usp=sharing) 
                [train_label](https://drive.google.com/file/d/1lnBsLA-xFRyIEg79YnKuP_GTcQLnCQaP/view?usp=sharing)
                [val_image](https://drive.google.com/file/d/1m8UwIuLvYTJxW_DusEfgrLsWqom5YTw3/view?usp=sharing) 
                [val_label](https://drive.google.com/file/d/1QjPDI_-H8UwDrdpL5DYGlfKOFA-rnLkd/view?usp=sharing)
 * Edition2
-* Google Drive https://drive.google.com/file/d/1l6SyoBvwn9mxpnlgsY8071rFeShUP3sQ/view?usp=sharing
-
+* [Google Drive](https://drive.google.com/file/d/1l6SyoBvwn9mxpnlgsY8071rFeShUP3sQ/view?usp=sharing)
 
 
 ---
@@ -65,18 +64,20 @@ Autonomous and accurate recognition of satellite components is crucial for space
 ## Setup Environment
 For this project, we follow the settings of mmsegmentation.
 
-'''shell
+```shell
 conda create --name open-mmlab python=3.7 -y
 conda activate open-mmlab
-'''
+```
+
 Please ensure your cuda version first. Find the correct pytorch version of your cuda version from [here](https://pytorch.org/get-started/previous-versions/)
 For our computer, the cuda version is 10.1. And the mmcv version can be found [here](https://github.com/open-mmlab/mmcv/blob/master/README_zh-CN.md)
 
-'''shell
+```shell
 pip install torch==1.8.1+cu101 torchvision==0.9.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
 pip install mmcv-full==1.6.0 -f https://download.openmmlab.com/mmcv/dist/cu101/torch1.8.0/index.html
 pip install mmsegmentation==0.27.0
-'''
+```
+
 
 ## Setup Datasets
 Download the UESD dataset and extract the folder. Create a new folder named data and cityscapes.The final folder structure should look like this:
@@ -96,23 +97,24 @@ mmsegmentation
 
 ## Training
 
-'''shell
+```shell
 bash tools/dist_train.sh configs/convnext/upernet_convnext_base_fp16_512x512_160k_ade20k.py 4
-'''
+```
 
 ## Val and Testing
 
 After the training, you will find a folder named work_dirs/upernet_convnext_base_fp16_512x512_160k_ade20k
-'''shell
+
+```shell
 bash ./tools/dist_test.sh configs/convnext/upernet_convnext_base_fp16_512x512_160k_ade20k.py workdirs/upernet_convnext_base_fp16_512x512_160k_ade20k/iter_80000.pyth  --eval mIoU --eval_options "imgfile_prefix=./UESD_results"
-'''
+```
 
 ## Framework Structure
 
 For more information about the project, please refer to the [mmsegmentation](https://github.com/open-mmlab/mmsegmentation)
 
 The most important files are :
-'''shell
+```shell
 configs/convnext/upernet_convnext_base_fp16_512x512_160k_ade20k.py
 
 configs/base/datasets/cityscapes.py
@@ -120,7 +122,7 @@ configs/base/datasets/cityscapes.py
 configs/base/models/upernet_convnext.py 
 
 mmseg/models/decode_heads/LUper_head.py
-'''
+```
 
 ## Acknowledgements
 
@@ -130,11 +132,11 @@ Our project is based on the following open-source projects.
 ## Citation
 If you find this paper useful in your research, please consider cite:
 
-'''
+```
 @Article{ZYP2022UESD,
 title={Intelligent Recognition of Spacecraft Components from Photorealistic Images Based on Unreal Engine 4},
 author={Yunpeng Zhao, Rui Zhong and Linyan Cui},
 journal={Advances in Space Research},
 year={2022}
 }
-'''
+```
