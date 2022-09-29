@@ -1,9 +1,12 @@
 ### Intelligent Recognition of Spacecraft Components from Photorealistic Images based on Unreal Engine 4
 
+## News
+* 2022.9.19 Our paper is accepted by Advances in Space Research!
+* 2022.8.23 Update 17 new satellite models and 3200 new images.
+
 ## BUAA-UESD
 
 * UESD has 10000 satellite images with five distinctive components and 33 different satellites.
-* 2022.8.23 Updated 17 new satellite models and 3200 images
 * UESD can be downloaded here
 * Edition1
 * [Baidu disk](https://pan.baidu.com/s/16LHmym9-RBQ7trlmRnkI4Q)  Password:BUAA 
@@ -11,6 +14,7 @@
                [train_label](https://drive.google.com/file/d/1lnBsLA-xFRyIEg79YnKuP_GTcQLnCQaP/view?usp=sharing)
                [val_image](https://drive.google.com/file/d/1m8UwIuLvYTJxW_DusEfgrLsWqom5YTw3/view?usp=sharing) 
                [val_label](https://drive.google.com/file/d/1QjPDI_-H8UwDrdpL5DYGlfKOFA-rnLkd/view?usp=sharing)
+* The labels are 0:_background_ 1:panel 2:antenna 3:instrument 4:thruster 5:opticpayload
 * Edition2
 * [Google Drive](https://drive.google.com/file/d/1l6SyoBvwn9mxpnlgsY8071rFeShUP3sQ/view?usp=sharing)
 
