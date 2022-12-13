@@ -118,6 +118,9 @@ configs/base/datasets/cityscapes.py
 configs/base/models/upernet_convnext.py 
 
 mmseg/models/decode_heads/LUper_head.py
+
+mmseg/datasets/cityscapes.py
+
 ```
 
 ## Training
@@ -126,7 +129,7 @@ mmseg/models/decode_heads/LUper_head.py
 bash tools/dist_train.sh configs/convnext/upernet_convnext_base_fp16_512x512_160k_ade20k.py 4
 ```
 
-## Val and Testing
+## Val and Test
 
 After the training, you will find a folder named work_dirs/upernet_convnext_base_fp16_512x512_160k_ade20k
 
