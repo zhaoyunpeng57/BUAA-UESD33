@@ -7,15 +7,15 @@
 ## BUAA-UESD
 
 * UESD has 10000 satellite images with five distinctive components and 33 different satellites.
-* UESD can be downloaded here
-* Edition1
+* UESD can be downloaded here (We recommend using Google Drive)
+* Edition1 (Paper edition)
 * [Baidu disk](https://pan.baidu.com/s/16LHmym9-RBQ7trlmRnkI4Q)  Password:BUAA 
 * Google Drive [train_image](https://drive.google.com/file/d/1YISHetSjqn7guUgwkpegteyfiYiWlqyN/view?usp=sharing) 
                [train_label](https://drive.google.com/file/d/1lnBsLA-xFRyIEg79YnKuP_GTcQLnCQaP/view?usp=sharing)
                [val_image](https://drive.google.com/file/d/1m8UwIuLvYTJxW_DusEfgrLsWqom5YTw3/view?usp=sharing) 
                [val_label](https://drive.google.com/file/d/1QjPDI_-H8UwDrdpL5DYGlfKOFA-rnLkd/view?usp=sharing)
 * The labels are 0:_background_ 1:panel 2:antenna 3:instrument 4:thruster 5:opticpayload
-* Edition2
+* Edition2 (New satellite images for referencing and other using)
 * [Google Drive](https://drive.google.com/file/d/1l6SyoBvwn9mxpnlgsY8071rFeShUP3sQ/view?usp=sharing)
 
 
@@ -25,10 +25,10 @@
 
 * The satellite models and their equipments diagrams in our paper could be downloaded here
 
-* Edition1(Paper edition)
+* Edition1
 * [Baidu disk](https://pan.baidu.com/s/15iQRhna1JqZQ2r8gI-O4GA)  Password：BUAA
 * [Google Drive](https://drive.google.com/file/d/1koIS_FNiqrHcVfvG1JpQRt4E88JbiI0z/view?usp=sharing)
-* Edition2(New satellite images for referencing and other using)
+* Edition2
 * [Google Drive](https://drive.google.com/file/d/1Sn8xSardyq-7ZL3bU_3CHaXIM8ZFRRr8/view?usp=sharing)
 * If you can not download, please contact zy2015128@buaa.edu.cn or 1018450554@qq.com
 
