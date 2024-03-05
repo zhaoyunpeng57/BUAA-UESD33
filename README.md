@@ -9,7 +9,8 @@
 * UESD has 10000 satellite images with five distinctive components and 33 different satellites.
 * UESD can be downloaded here (We recommend using Google Drive)
 * Edition1 (Paper edition)
-* [Baidu disk](https://pan.baidu.com/s/16LHmym9-RBQ7trlmRnkI4Q)  Password:BUAA 
+* Images[Baidu disk](https://pan.baidu.com/s/16LHmym9-RBQ7trlmRnkI4Q)  Password:BUAA
+* Labels[Baidu disk](https://pan.baidu.com/s/1bOTb0qmtabxtGoQyvE681Q)  Password:BUAA
 * Google Drive [train_image](https://drive.google.com/file/d/1YISHetSjqn7guUgwkpegteyfiYiWlqyN/view?usp=sharing) 
                [train_label](https://drive.google.com/file/d/1lnBsLA-xFRyIEg79YnKuP_GTcQLnCQaP/view?usp=sharing)
                [val_image](https://drive.google.com/file/d/1m8UwIuLvYTJxW_DusEfgrLsWqom5YTw3/view?usp=sharing) 
